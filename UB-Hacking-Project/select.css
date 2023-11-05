@@ -1,0 +1,38 @@
+html {
+  height: 100;
+  width: 100;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  font: 28pt fantasy;
+}
+
+a img {
+  border: 3px;
+  border-color: red;
+  border-style: solid;
+}
+
+a:hover img {
+  filter: grayscale(50%);
+  border-color: cyan;
+}
+
+body {
+  font: 20pt arial;
+  background-image: url("Background.jpg");
+}
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 5px;
+}
+
+.row {
+  content: "";
+  clear: both;
+  display: table;
+}

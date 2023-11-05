@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>ACTION</title>
+    <h1>
+      FIGHT
+    </h1>
+    <link href="game.css" rel="stylesheet" type="text/css" />
+  <body>
+    <p><span class="titan">Titan Knight</span></p>
+    Health: <div id = "healthOutput">20</div> <br />
+    Shield: <div id = "shieldOutput">2</div> <br />
+    Mana: <div id = "manaOutput">5</div> <br />
+    <hr />
+    <p><span class="you">You</span></p>
+    Health: <div id = "healthOutput2">15</div> <br />
+    Shield: <div id = "shieldOutput2">0</div><br />
+    Mana: <div id = "manaOutput2">6</div> <br />
+    <button onclick="attack();" id="attack">ATTACK</button>
+    <button onclick="shield();" id="defend">DEFEND</button>
+    <button onclick="empower();" id="empower">EMPOWER</button>
+    <br />
+    <button onclick="wait();" id="wait">WAIT</button>
+    <button onclick="sleep();" id="sleep">SLEEP</button>
+    <br />
+    <p id = "condition"></p>
+    <a href = "index.html">Main Menu</a>
+  </body>
+  <script src="classes.js"></script>
+</html>
